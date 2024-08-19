@@ -1,3 +1,4 @@
+![Print fast dashboard](https://github.com/user-attachments/assets/8c761638-5d92-40b1-9b93-2b39af1675fc)
 # Dashboard rápido com Python e Streamlit
 Essenciais para visualização de dados e tomada de decisão. Dashboards permitem a visualização rápida e fácil de dados facilitando a identificação de tendências e padrões que serão usados ​​para melhorar os negócios.
 
