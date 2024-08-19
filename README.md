@@ -67,4 +67,10 @@ pip install streamlit pandas plotly-express
 pip install -r requirements.txt
 ````
 
+### Install requirements.txt:
+For the Python 3 version, the command is:
+````
+pip3 install -r requirements.txt
+````
+
 Essas bibliotecas são fundamentais para criar nosso dashboard de forma eficiente e interativa. O Streamlit é a ferramenta principal que usaremos para construir uma interface, enquanto o Pandas e o Plotly Express nos ajudam a manipular e visualizar os dados de maneira eficaz. Com as bibliotecas instaladas, estamos prontos para continuar!
