@@ -31,21 +31,40 @@ Criamos uma pasta dedicada para armazenar todos os arquivos relacionados ao proj
 
 Aqui estão os comandos essenciais para criar e ativar o ambiente virtual:
 
-python -m venv venv
+### Instale o virtualenv ( Windons ):
 
-source venv/bin/activate
+```
+pip install virtualenv 
+```
+
+### Crie um ambiente virtual dentro da pasta do projeto :
+
+```
+python3 -m venv env
+```
+
+### Ative o ambiente virtual que está na pasta:
+
+```
+venv/scripts/activate 
+```
+
 
 Isso nos permite manter um ambiente limpo e independente para o nosso projeto, garantindo que as dependências sejam gerenciadas de forma eficaz e evitando conflitos com outras aplicações ou projetos em execução em nossa máquina. Com essa base sólida, estamos prontos para exigir a configuração e o desenvolvimento do dashboard.
 
 Instalação das Bibliotecas
 Agora que configuramos o ambiente e estamos prontos para avançar, o próximo passo importante é garantir que todas as bibliotecas e dependências estejam instaladas. Fundamental para garantir que nosso projeto funcione sem problemas.
 
-Você pode usar o seguinte comando para instalar as bibliotecas essenciais para o nosso projeto:
+### Você pode usar o seguinte comando para instalar as bibliotecas essenciais para o nosso projeto:
 
+````
 pip install streamlit pandas plotly-express
+````
 
-Para simplificar esse processo, podemos usar o comando abaixo para instalar todas as bibliotecas específicas no arquivo requirements.txt, caso você tenha baixado o repositório do tutorial:
+### Para simplificar esse processo, podemos usar o comando abaixo para instalar todas as bibliotecas específicas no arquivo requirements.txt, caso você tenha baixado o repositório do tutorial:
 
+````
 pip install -r requirements.txt
+````
 
 Essas bibliotecas são fundamentais para criar nosso dashboard de forma eficiente e interativa. O Streamlit é a ferramenta principal que usaremos para construir uma interface, enquanto o Pandas e o Plotly Express nos ajudam a manipular e visualizar os dados de maneira eficaz. Com as bibliotecas instaladas, estamos prontos para continuar!
