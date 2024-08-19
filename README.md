@@ -40,7 +40,7 @@ pip install virtualenv
 ### Crie um ambiente virtual dentro da pasta do projeto :
 
 ```
-python3 -m venv env
+python3 -m venv venv
 ```
 
 ### Ative o ambiente virtual que está na pasta:
